@@ -1,74 +1,326 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Gamification : Descripción general acerca de la gamificación, mecánicas de juego, pasado y futuro." />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Gamification</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/pavelEspitia/Gamification">View on GitHub</a>
-
-          <h1 id="project_title">Gamification</h1>
-          <h2 id="project_tagline">Descripción general acerca de la gamificación, mecánicas de juego, pasado y futuro.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/pavelEspitia/Gamification/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/pavelEspitia/Gamification/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<!doctype html>
+<!-- impress.js FTW ! -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Gamificación | Juegos de Empresa | by Pavel Espitia @pavelEspitia</title>
+    <meta name="author" content="Pavel Espitia" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+        rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+    <!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+    <div class="fallback-message">
+        <p>
+            Your browser <b>doesn't support the features required</b> by impress.js, so you
+            are presented with a simplified version of this presentation.</p>
+        <p>
+            For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b>
+            browser.</p>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+   
+    <div id="impress">
+	<!-- 1 -->
+        <div id="titulo" class="step" data-x="-1000" data-y="-1500">
+           <h1>
+		   <span class="short">Gamificación<br/>Juegos de Empresa</span>
+            <img src="images/badges.png" alt"gamificación" />
+			</h1>
+        </div>
+	<!-- 2 -->
+        <div id="expositor" class="step" data-x="-1000" data-y="-500">
+		<h1><span id="divName" class="name">
+            <b>Pavel Espitia</b>
+			</span><br/>
+			<span id="divJob" class="job">
+			Desarrollador de Software
+			</span><br/>
+			<span id="divDev" class="dev">
+			Lider Técnico
+			</span><br/>
+			<span>
+			<img src="images/avanet.png"/>
+            <span>
+		</h1>	
+        </div>
+	<!-- 3 -->
+        <div id="definition" class="step" data-x="-1000" data-y="500">
+            <h1>
+			<span class="gamification">Gamifi.. <b>qué?</b></span>
+			<br/>
+			<span class="def">(gamification en el ámbito anglosajón) 
+			es el empleo de mecánicas de juego en entornos y 
+			aplicaciones no lúdicas con el fin de potenciar la 
+			motivación, la concentración, el esfuerzo, la fidelización 
+			y otros valores positivos comunes a todos los juegos. 
+			Se trata de una poderosa estrategia para influir y motivar a grupos de personas.</span>
+			</h1>
+        </div>
+	<!-- 4 -->		
+		<div id="engagement" class="step" data-x="-1000" data-y="1500">
+		<h1>
+		<span class="title">Pasando de la <b>conectividad</b> al <b>engagement</b></span>
+		<br/>
+		<span class="engag"> 
+		logrando que los miembros de una comunidad, 
+		los trabajadores de una empresa, los estudiantes 
+		de un instituto, los habitantes de una ciudad 
+		-prácticamente cualquier colectivo o individuo- 
+		participen de manera dinámica y proactiva en 
+		acciones que generalmente requieren un esfuerzo 
+		de la voluntad.
+		</span>
+		<span>
+			<img src="images/FSBadge.png" style="float:right"/>
+		<span>
+		</h1>
+		</div>
+    <!-- 5 -->       
+        <div id="objetives" class="step" data-x="0" data-y="-1500">
+            <h1>
+                <span class="title">¿Con qué fin ? ¿ Qué ventajas tenemos ?</span>
+			</h1>
+        </div>
+		
+		<div id="advantages" class="step" data-x="0" data-y="-500">
+		<h1>
+		<ul>
+		<li>
+		Compromiso
+		</li>
+		<li>
+		Influencia
+		</li>
+		<li>
+		Lealtad
+		</li>
+		<li>
+		Contenido generado por el usuario (UGC)
+		</li>
+		<li>
+		Inversión de tiempo
+		</li>
+		<li>
+		Viralidad
+		</li>
+		</ul>
+		</h1>
+		</div>
+	<!-- 6 -->
+		<div id="isnt" class="step" data-x="0" data-y="500">
+		<h1>
+		<span class="title">Lo que la gamificación <b>no</b> es:</span>
+		<br/>
+		<span class="def">
+		<ul>
+		<li>un nuevo concepto, mientras que el término es nuevo el concepto tiene mucho tiempo, no es un "hype" o una moda, mucho menos una tecnología.</li>
+		<br/>
+		<li>la gamificación no mejorará el rendimiento o la adopción de nuestro producto/sitio si el producto es simplemente malo.</li>
+		<br/>
+		<li>no es solo colocar insignias (badges) en nuestro sitio web, inclusive siendo importantes no son la única cosa que necesitamos</li>
+		<li></li>
+		</ul>
+		</span>
+		</h1>
+		</div>
+	<!-- 7 -->
+		<div id="summary" class="step" data-x="0" data-y="1500">
+		<h1>
+		<span>
+		<b>Entonces... en resumen:</b>
+		</span>
+		<br/>
+		<span class="def">
+		La gamificación quiere hacer cualquier actividad más <b>atractiva y emocionante</b>, mediante
+		el desarrollo de comportamientos deseados. Esta técnica puede animar a la gente
+		para realizar tareas que consideran aburridas como completar encuestas, ir de compras
+		o la lectura de páginas web.
+		</span>
+		<img src="images/combo.png"/>
+		</h1>
+		</div>
+	<!-- 8 -->
+		<div id="mechs" class="step" data-x="1000" data-y="-1500">
+		<h1>
+		<span class="title">Mecánicas de juego</span>		
+		<br/>
+		<span class="def">(solo para nombrar algunas)</span>
+		</h1>
+		</div>
+	<!-- 9 -->
+		<div id="achievements" class="step" data-x="1000" data-y="-500">
+		<h1>
+		<span class="title">Logros</span>		
+		<br/>
+		<span class="def">Algunas personas se sienten motivadas por la necesidad de un logro, 
+		de completar alguna tarea compleja a través de una serie de esfuerzos repetidos y prolongados, 
+		para marcarse metas y alcanzarlas. 
+		Aquellos motivados por los logros tienden a buscar retos y establecerse metas de dificultad 
+		considerable (pero alcanzable). Su recompensa más gratificante es el reconocimiento de sus logros.</span>
+		<br/>
+		<center>
+		<img src="images/logro.png"/>
+		<center/>
+		</h1>
+	<!-- 10 -->
+		<div id="status" class="step" data-x="1000" data-y="500">
+		<h1>
+		<span class="title">Estatus</span>		
+		<br/>
+		<span class="def">La mayoría de las personas sienten la necesidad inherente de obtener un estatus, 
+		reconocimiento, posiciónamiento, fama, prestigio, atención y finalmente, la estima y respeto de los otros. 
+		A su vez, las personas precisan sentirse comprometidas con actividades que les proporcionen la mencionada 
+		estima o reconocimiento. Todos los elementos de la mecánica de juego conducen a esta dinámica.</span>
+		</h1>
+		</div>
+	<!-- 11 -->
+		<div id="competition" class="step" data-x="1000" data-y="1500">
+		<h1>
+		<span class="title">Competición</span>		
+		<br/>
+		<span class="def">A menudo, la competición es por sí misma un elemento motivador para los individuos. 
+		Está demostrado que pueden obtenerse mayores niveles de rendimiento cuando se establece un ambiente 
+		competitivo en el que el ganador será recompensado. Este hecho se explica porque se gana un cierto 
+		grado de satisfacción mediante la comparación del propio rendimiento con el de los otros.</span>
+		<br/>
+		<center>
+		<img src="images/competition.png"/>
+		<center/>
+		</h1>
+		</div>
+	<!-- 12 -->
+		<div id="Altruism" class="step" data-x="2000" data-y="-1500">
+		<h1>
+		<span class="title">Altruismo</span>		
+		<br/>
+		<span class="def">La consecución de objetivos por el bien común, por una mejora social o un hecho 
+		noble de forma desinteresada presenta un gran atractivo para muchas personas. Según el sistema ético 
+		de distintas culturas,  los únicos actos moralmente correctos son aquellos que intentan promover la 
+		felicidad de otros. El alcance de esa moralidad conecta con la dinámica de estatus y con la de auto-expresión.</span>
+		</h1>
+		</div>
+	<!-- 13 -->
+		<div id="missions" class="step" data-x="2000" data-y="-500">
+		<h1>
+		<span class="title">Misiones o Retos</span>		
+		<br/>
+		<span class="def">
+		Los retos y misiones que plantea un juego intentan hacer sentir al usuario que el juego tiene una finalidad, una meta. 
+		Para conseguir el sentimiento épico de que se está actuando por lograr un objetivo el juego propone las misiones y retos al usuario. 
+		Un juego está compuesto de una suma de misiones o retos a través de los cuales se van adquiriendo habilidades, se va progresando 
+		en la curva de aprendizaje y adaptación y se van realizando acciones y desarrollando capacidades inherentes al objetivo final del juego.</span>
+		<center>
+		<img src="images/missions.png"/>
+		<center/>
+		</h1>
+		</div>
+	<!-- 14 -->
+		<div id="prize" class="step" data-x="2000" data-y="-500">
+		<h1>
+		<span class="title">Premios</span>		
+		<br/>
+		<span class="def">
+		Los retos y misiones que plantea un juego intentan hacer sentir al usuario que el juego tiene una finalidad, una meta. 
+		Esa finalidad viene representada por los premios, que son la recompensa tangible (bien física o virtualmente) 
+		a la consecución de un objetivo mediante una acción o serie de acciones. Los premios pueden clasificarse en trofeos, 
+		medallas o logros que suelen ser visibles para otros usuarios con el fin de obtener reconocimiento 
+		y alimentar la motivación del resto de jugadores.</span>
+		<center>
+		<img src="images/kanto_badges.png" style="height:100px"/>
+		<center/>
+		</h1>
+		</div>
+	<!-- 15 -->
+		<div id="levels" class="step" data-x="2000" data-y="500">
+		<h1>
+		<span class="title">Niveles</span>		
+		<br/>
+		<span class="def">
+		Los niveles son unos indicadores que aportan reconocimiento y respeto una vez se han cumplido unos hitos determinados. 
+		A menudo se definen como objetivos o umbrales que al ser cumplidos, permiten subir de nivel basándose en la participación, 
+		subir de status, o acceder a nuevo contenido de la aplicación. Los niveles son unas de las motivaciones mas fuertes para los jugadores.</span>
+		</h1>
+		</div>
+	<!-- 16 -->
+		<div id="points" class="step" data-x="2000" data-y="1500">
+		<h1>
+		<span class="title">Puntos</span>		
+		<br/>
+		<span class="def">
+		Los puntos son un gran atractivo para todo el mundo: tanto ganarlos como conservarlos, 
+		y es eso precisamente lo que consigue que aumente la motivación ante ellos. 
+		La puntuación puede ser utilizada para recompensar a los usuarios por sus diferentes 
+		comportamientos u objetivos conseguidos en una aplicación.</span>
+		<br/>
+		<center>
+		<img src="images/points.jpg" style="height:300px"/>
+		<center/>
+		</h1>
+		</div>
+	<!-- 17 -->
+		<div id="past" class="step" data-x="3000" data-y="-1500">
+		<h1>
+		<span class="title">2011</span>		
+		<br/>
+		<span class="def">En enero de 2011 se celebró la primera cumbre sobre “gamification”.</span>
+		<br/>
+		<span class="def">Se invirtieron 25 millones de dólares en “gamification”.</span>
+		<br/>
+		<span class="title">A futuro !</span>		
+		</h1>
+		</div>
+	<!-- 18 -->
+		<div id="future" class="step" data-x="3000" data-y="-500">
+		<h1>
+		<span class="title">Futuro</span>		
+		<br/>
+		<span class="def">El 50% de las organizaciones que trabajan con procesos de innovación aplicarán la
+		“gamification” a estos procesos en 2015.
+		<br/>
+		El 70% de 2.000 grandes empresas globales tendrán al menos una aplicación de “gamification”
+		en 2014.
+		<br />
+		Un total de 2.800 millones de dólares se invertirán directamente en “gamification”
+		en el año 2015.		
+		</span>
+		</h1>
+		</div>
+	<!-- 19 -->
+		<div id="thanks" class="step" data-x="3000" data-y="500">
+		<h1>
+		<span class="title">¡ Gracias !</span>		
+		<br/>
+		<span class="def">@pavelEspitia
+		<br/>
+		http://Avanet.org
+		<br />
+		Presentación hecha usando Impress.JS 	
+		</span>
+		</h1>
+		</div>
+	<!-- Final -->
+        <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="8">
+        </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Gamification maintained by <a href="https://github.com/pavelEspitia">pavelEspitia</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="hint">
+        <p>
+            Use a spacebar or arrow keys to navigate</p>
     </div>
-
-    
-
-  </body>
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+</script>
+    <script src="js/impress.js"></script>
+	<script>        impress().init();</script>
+</body>
 </html>
+
